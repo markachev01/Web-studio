@@ -64,8 +64,9 @@ body {
 
 .title {
   padding: 2rem;
-  font-size: 60px;
+  font-size: 44px;
   font-weight: 900;
+  color: #ffffff;
   text-align: center;
 }
 .title-section {
@@ -75,9 +76,24 @@ body {
   text-align: center;
   color: #212121;
 }
+.title-description__bold {
+  font-size: 14px;
+  color: #757575;
+}
 .title-description {
   font-size: 14px;
   color: #757575;
+}
+
+.btn__add {
+  background-color: #2196F3;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .navbar {
@@ -92,13 +108,13 @@ body {
   margin-top: 1.3rem;
 }
 
-.title-color {
+.title__color {
   color: #2196F3;
 }
 
 .list {
   display: inline-block;
-  padding: 1.6rem;
+  padding: 1.7rem;
   list-style: none;
 }
 .list:hover {
@@ -119,4 +135,36 @@ body {
 }
 .list-link__contact:hover {
   color: #2196F3;
+}
+
+.section-image {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/background.png");
+  background-position: 50% 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.added-services {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about-image {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  position: relative;
+}
+.about-icons {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 65px;
+  height: 70px;
 }/*# sourceMappingURL=main.css.map */

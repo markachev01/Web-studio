@@ -11,8 +11,9 @@ body {
 .title {
     padding: 2rem;
 
-    font-size: $font-60;
+    font-size: $font-44;
     font-weight: $font-w-900;
+    color: $white;
 
     text-align: center;
 
@@ -22,6 +23,13 @@ body {
         font-size: $font-36;
         font-weight: $font-w-700;
         text-align: center;
+        color: $black;
+    }
+
+    &-description-bold {
+        font-size: $font-14;
+        font-weight: $font-w-700;
+
         color: $black;
     }
 

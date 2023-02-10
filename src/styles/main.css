@@ -55,7 +55,6 @@ html,
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  background-color: #E5E5E5;
 }
 
 .container {
@@ -79,4 +78,45 @@ body {
 .title-description {
   font-size: 14px;
   color: #757575;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 1.3rem;
+}
+
+.title-color {
+  color: #2196F3;
+}
+
+.list {
+  display: inline-block;
+  padding: 1.6rem;
+  list-style: none;
+}
+.list:hover {
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  color: #2196F3;
+}
+.list-link {
+  text-decoration: none;
+  color: #212121;
+}
+.list-link:hover {
+  color: #2196F3;
+}
+.list-link__contact {
+  text-decoration: none;
+  color: #757575;
+}
+.list-link__contact:hover {
+  color: #2196F3;
 }/*# sourceMappingURL=main.css.map */

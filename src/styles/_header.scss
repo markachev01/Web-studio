@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-header {
+    font-family: $fontfamily;
+    font-weight: $font-w-700;
+    font-size: $font-26;
+
+    margin-top: 1.3rem;
+}
+
+.title-color {
+    color: $primary-color;
+}
+
+.list {
+    display: inline-block;
+    padding: 1.6rem;
+
+    list-style: none;
+
+    &:hover {
+        text-decoration: underline 3px;
+
+        color: $primary-color;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: $black;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+
+    &-link__contact {
+        text-decoration: none;
+        color: $gray-dark;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}

@@ -4,6 +4,12 @@ body {
     font-size: $font-14;
 }
 
+a {
+    text-decoration: none;
+
+    color: $black;
+}
+
 .container {
     @include container();
 }
@@ -26,7 +32,7 @@ body {
         color: $black;
     }
 
-    &-description-bold {
+    &-description--bold {
         font-size: $font-14;
         font-weight: $font-w-700;
 

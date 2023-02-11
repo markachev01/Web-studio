@@ -22,28 +22,28 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <h3 class="title-header"><span class="title-header title__color">Web</span>Studio</h3>
-            <ul class="lists">
-                <li class="list"><a href="#" class="list-link">Студия</a></li>
-                <li class="list"><a href="#" class="list-link">Портфолио</a></li>
-                <li class="list"><a href="#" class="list-link">Контакты</a></li>
-            </ul>
-            <ul class="lists lists-contact">
-                <li class="list list-contact"><a href="#" class="list-link__contact"><svg width="16" height="12"
-                            viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
-                                fill="#2196F3" />
-                        </svg>
-                        info@devstudio.com</a></li>
-                <li class="list list-contact"><a href="tel:+380961111111" class="list-link__contact"><svg width="10"
-                            height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z"
-                                fill="#757575" />
-                        </svg>
-                        +38 096 111 11 11</a></li>
-            </ul>
+            <div class="header__left">
+                <div class="main-logo">
+                    <h1 class="main-title"><span class="main-title--blue">Web</span>Studio</h1>
+                </div>
+                <div class="main-navigation">
+                    <ul class="main-navigation__lists">
+                        <li class="main-navigation__list"><a href="#" class="main-navigation__link">Студио</a></li>
+                        <li class="main-navigation__list"><a href="#" class="main-navigation__link">Портфолио</a></li>
+                        <li class="main-navigation__list"><a href="#" class="main-navigation__link">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-contact">
+                <div class="header-contact__email">
+                    <img src="img/icons/envelope.svg">
+                    <a href="mailto:info@devstudio.com" class="main-navigation__link--color">info@devstudio.com</a>
+                </div>
+                <div class="header-contact__tel">
+                    <img src="./img/icons/Vector.svg">
+                    <a href="tel:+38 096 111 11 11" class="main-navigation__link--color">+38 096 111 11 11</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -77,17 +77,18 @@
                         формированию позиции.</p>
                 </div> <br>
                 <div class="card-description">
-                    <h3 class="title-description-bold">ПУНКТУАЛЬНОСТЬ</h3>
+                    <h3 class="title-description--bold">ПУНКТУАЛЬНОСТЬ</h3>
                     <p class="title-description">Задача организации, в особенности <br> же рамки и место обучения кадров
-                        <br> влечет за собой.</p>
+                        <br> влечет за собой.
+                    </p>
                 </div> <br>
                 <div class="card-description">
-                    <h3 class="title-description-bold">ПЛАНИРОВАНИЕ</h3>
+                    <h3 class="title-description--bold">ПЛАНИРОВАНИЕ</h3>
                     <p class="title-description">Равным образом консультация с <br> широким активом в значительной <br>
                         степени обуславливает.</p>
                 </div> <br>
                 <div class="card-description">
-                    <h3 class="title-description-bold">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                    <h3 class="title-description--bold">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                     <p class="title-description">Значимость этих проблем настолько <br> очевидна, что реализация
                         плановых <br> заданий.</p>
                 </div>
@@ -98,26 +99,174 @@
             <h3 class="title-section">Чем мы занимаемся</h3>
             <div class="block">
                 <div class="block-info">
-                        <div class="block-info__title">
-                            <p class="block-info__text">ДЕКСТОПНЫЕ ПРИЛОЖЕНИЯ</p>
-                        </div>
+                    <div class="block-info__title">
+                        <p class="block-info__text">ДЕКСТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+                    </div>
                 </div>
 
                 <div class="block-info2">
-                        <div class="block-info__title">
-                            <p class="block-info__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
-                        </div>
+                    <div class="block-info__title">
+                        <p class="block-info__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+                    </div>
                 </div>
 
                 <div class="block-info3">
-                        <div class="block-info__title">
-                            <p class="block-info__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
-                        </div>
+                    <div class="block-info__title">
+                        <p class="block-info__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+                    </div>
                 </div>
             </div>
 
         </section> <br><br><br>
+
+        <section class="section section-colored"> <br><br>
+            <h3 class="section-title">Наша команда</h3>
+            <div class="container section-team">
+                <div class="section-content">
+                    <div class="section-content__card">
+                        <img src="./img/igor.png" alt="" class="section-content__image">
+                    </div>
+                    <div class="section-content__description">
+                        <h3 class="section-content__title">Игорь Демьяненко</h3>
+                        <p class="section-content__title--gray">Product Designer</p>
+                        <ul class="section-content__items">
+                            <li class="section-content__item colored-inst">
+                                <img src="./img/icons/instagram 2.svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (2).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (3).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/linkedin 1.svg" alt="" class="section-content__item--dark">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="section-content__card">
+                        <img src="./img/olga.png" alt="" class="section-content__image">
+                    </div>
+                    <div class="section-content__description">
+                        <h3 class="section-content__title">Ольга Репина</h3>
+                        <p class="section-content__title--gray">Frontend Developer</p>
+                        <ul class="section-content__items">
+                            <li class="section-content__item colored-inst">
+                                <img src="./img/icons/instagram 2.svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (2).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (3).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/linkedin 1.svg" alt="" class="section-content__item--dark">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="section-content__card">
+                        <img src="./img/nikolay.png" alt="" class="section-content__image">
+                    </div>
+                    <div class="section-content__description">
+                        <h3 class="section-content__title">Николай Тарасов</h3>
+                        <p class="section-content__title--gray">Marketing</p>
+                        <ul class="section-content__items">
+                            <li class="section-content__item colored-inst">
+                                <img src="./img/icons/instagram 2.svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (2).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (3).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/linkedin 1.svg" alt="" class="section-content__item--dark">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="section-content__card">
+                        <img src="./img/mihail.png" alt="" class="section-content__image">
+                    </div>
+                    <div class="section-content__description">
+                        <h3 class="section-content__title">Михаил Ермаков</h3>
+                        <p class="section-content__title--gray">UI Designer</p>
+                        <ul class="section-content__items">
+                            <li class="section-content__item colored-inst">
+                                <img src="./img/icons/instagram 2.svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (2).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/Vector (3).svg" alt="">
+                            </li>
+                            <li class="section-content__item">
+                                <img src="./img/icons/linkedin 1.svg" alt="" class="section-content__item--dark">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h3 class="section-title">Постоянные клиенты</h3>
+            <div class="section-client">
+                <div class="section-client__image"><img src="./img/icons/Logo.svg" alt="" class="section-client__item"></div>
+                <div class="section-client__image"><img src="./img/icons/Logo (1).svg" alt="" class="section-client__item">
+                </div>
+                <div class="section-client__image"><img src="./img/icons/Logo (2).svg" alt="" class="section-client__item">
+                </div>
+                <div class="section-client__image"><img src="./img/icons/Logo (3).svg" alt="" class="section-client__item">
+                </div>
+                <div class="section-client__image"><img src="./img/icons/Logo (4).svg" alt="" class="section-client__item">
+                </div>
+                <div class="section-client__image"><img src="./img/icons/Logo (5).svg" alt="" class="section-client__item">
+                </div>
+            </div>
+
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div>
+                <h1 class="footer-main__title"><span class="main-title--blue">Web</span>Studio</h1>
+            </div>
+            <div class="footer-main__adress">
+                <a href="#" class="main-navigation__link--white">г. Киев, пр-т Леси Украинки, 26</a>
+            </div> <br>
+            <div class="header-contact__email">
+                <img src="./img/icons/envelope.svg">
+                <a href="mailto:info@devstudio.com" class="main-navigation__link--color">info@devstudio.com</a>
+            </div> <br>
+            <div class="header-contact__tel">
+                <img src="./img/icons/Vector.svg">
+                <a href="tel:+38 096 111 11 11" class="main-navigation__link--color">+38 096 111 11 11</a>
+            </div>
+        </div>
+
+        <div class="footer-contacts">
+            <p class="footer-description">присоединяйтесь</p>
+            <div class="footer-contacts__social">
+                <ul class="footer-navigation__lists">
+                    <li class="footer-navigation__list"><a href=""><img src="./img/icons/instagram 2.svg"></a></li>
+                    <li class="footer-navigation__list--twiter"><a href=""><img src="img/icons/Vector (2).svg"></a></li>
+                    <li class="footer-navigation__list"><a href=""><img src="./img/icons/Vector (3).svg"></a></li>
+                    <li class="footer-navigation__list"><a href=""><img src="./img/icons/linkedin 1.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>

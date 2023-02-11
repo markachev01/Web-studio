@@ -1,47 +1,94 @@
+.header {
+    height: 80px;
+
+    padding-left: 13.4%;
+    padding-right: 13.4%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &-contact {
+        display: flex;
+        justify-content: right;
+
+        padding-left: 15rem;
+
+        &__email {
+            margin-right: 30px;
+            display: flex;
+            align-items:center;
+        }
+
+        &__tel {
+            display: flex;
+            align-items: center;
+        }
+
+        &__email img {
+            margin-right: 10px;
+        }
+
+        &__tel img {
+            margin-right: 10px;
+        }
+    }
+}
+
 .navbar {
     display: flex;
-    justify-content: space-around;
 }
 
-.title-header {
-    font-family: $fontfamily;
-    font-weight: $font-w-700;
+.main-logo {
+    margin-right: 93px;
+}
+
+.main-title {
     font-size: $font-26;
-
-    margin-top: 1.3rem;
+    font-weight: $font-w-700;
 }
 
-.title__color {
+.main-title--blue {
     color: $primary-color;
 }
 
-.list {
-    display: inline-block;
-    padding: 1.7rem;
-
+.main-navigation__lists {
     list-style: none;
 
-    &:hover {
-        text-decoration: underline 3px;
+    display: flex;
 
-        color: $primary-color;
-    }
+    margin: auto;
+    padding: 0px;
+}
 
-    &-link {
-        text-decoration: none;
-        color: $black;
+.main-navigation__list {
+    font-size: $font-14;
+    font-weight: $font-w-500;
 
-        &:hover {
-            color: $primary-color;
-        }
-    }
+    padding: 30px 0px;
+    margin-right: 50px;
 
-    &-link__contact {
-        text-decoration: none;
-        color: $gray-dark;
+    position: relative;
+}
 
-        &:hover {
-            color: $primary-color;
-        }
-    }
+.main-navigation__link:hover {
+    color: $primary-color;
+
+    text-decoration: underline 3px;
+}
+
+.main-navigation__link--color {
+    color: $gray-dark;
+}
+
+.main-navigation__link--color:hover {
+    color: $primary-color;
+
+    text-decoration: underline 3px;
 }

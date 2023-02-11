@@ -76,9 +76,10 @@ body {
   text-align: center;
   color: #212121;
 }
-.title-description__bold {
+.title-description-bold {
   font-size: 14px;
-  color: #757575;
+  font-weight: 700;
+  color: #212121;
 }
 .title-description {
   font-size: 14px;
@@ -159,6 +160,7 @@ body {
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
+  border-radius: 4px;
   position: relative;
 }
 .about-icons {
@@ -167,4 +169,54 @@ body {
   left: 40%;
   width: 65px;
   height: 70px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-description {
+  width: 270px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+.block-info {
+  width: 370px;
+  height: 294px;
+  background-image: url("../img/image_2023-02-11_11-54-12.png");
+  background-position: 50% 50%;
+  position: relative;
+}
+.block-info__title {
+  text-align: center;
+  background-color: #2F303A;
+  opacity: 0.8;
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  top: 76%;
+}
+.block-info__text {
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.block-info2 {
+  width: 370px;
+  height: 294px;
+  background-image: url("../img/image_2023-02-11_11-54-22.png");
+  background-position: 50% 50%;
+  position: relative;
+}
+.block-info3 {
+  width: 370px;
+  height: 294px;
+  background-image: url("../img/image_2023-02-11_11-54-31.png");
+  background-position: 50% 50%;
+  position: relative;
 }/*# sourceMappingURL=main.css.map */

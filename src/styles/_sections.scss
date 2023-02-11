@@ -5,16 +5,9 @@
 
     height: 600px;
 
-    // position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.title {
-    // position: absolute;
-    // top: 30%;
-    // left: 30%;
 }
 
 .added-services {
@@ -22,7 +15,7 @@
     justify-content: center;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: space-between;
 
@@ -31,6 +24,7 @@
         height: 120px;
 
         background-color: $gray;
+        border-radius: 4px;
 
         position: relative;
     }
@@ -46,7 +40,67 @@
     }
 }
 
-.cards-description {
+.cards {
     display: flex;
     justify-content: space-between;
+}
+
+.card-description {
+    width: 270px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+
+    &-info {
+        width: 370px;
+        height: 294px;
+
+        background-image: url("../img/image_2023-02-11_11-54-12.png");
+        background-position: 50% 50%;
+
+        position: relative;
+
+        &__title {
+            text-align: center;
+            background-color: $secondary-color;
+            opacity: .8;
+
+            width: 370px;
+            height: 70px;
+
+            position: absolute;
+            top: 76%;
+        }
+
+        &__text {
+            margin-top: 2rem;
+
+            font-size: 14px;
+            font-weight: $font-w-700;
+
+            color: $white;
+        }
+    }
+
+    &-info2 {
+        width: 370px;
+        height: 294px;
+
+        background-image: url("../img/image_2023-02-11_11-54-22.png");
+        background-position: 50% 50%;
+
+        position: relative;
+    }
+
+    &-info3 {
+        width: 370px;
+        height: 294px;
+
+        background-image: url("../img/image_2023-02-11_11-54-31.png");
+        background-position: 50% 50%;
+
+        position: relative;
+    }
 }

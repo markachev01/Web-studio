@@ -23,7 +23,7 @@
         &__email {
             margin-right: 30px;
             display: flex;
-            align-items:center;
+            align-items: center;
         }
 
         &__tel {
@@ -79,8 +79,6 @@
 
 .main-navigation__link:hover {
     color: $primary-color;
-
-    text-decoration: underline 3px;
 }
 
 .main-navigation__link--color {
@@ -89,6 +87,4 @@
 
 .main-navigation__link--color:hover {
     color: $primary-color;
-
-    text-decoration: underline 3px;
 }

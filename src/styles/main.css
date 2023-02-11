@@ -170,8 +170,6 @@ a {
 
 .main-navigation__link:hover {
   color: #2196F3;
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
 }
 
 .main-navigation__link--color {
@@ -180,8 +178,6 @@ a {
 
 .main-navigation__link--color:hover {
   color: #2196F3;
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
 }
 
 .section-image {
